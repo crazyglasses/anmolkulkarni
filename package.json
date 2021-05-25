@@ -28,7 +28,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "gatsby-remark-emojis":"^0.4.3",
-    "gatsby-transformer-remark","^4.2.0"
+    "gatsby-transformer-remark":"^4.2.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2"
