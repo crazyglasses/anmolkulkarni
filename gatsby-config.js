@@ -32,7 +32,7 @@ module.exports = {
             width        : '25px'
           }
         }
-      ,
+    },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
