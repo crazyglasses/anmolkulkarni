@@ -5,9 +5,25 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
-  siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteMetadata: {
+    // Used for the title template on pages other than the index site
+    siteTitle: `Anmol Kulkarni`,
+    // Default title of the page
+    siteTitleAlt: `Anmol Kulkarni's Blog`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Anmol Kulkarni's Blog`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://anmolkulkarni.com`,
+    // Used for SEO
+    siteDescription: `Anmol Kulkarnis Blog`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@anmolkulkarni`,
   },
+
   plugins: [
     {
         resolve: 'gatsby-remark-emojis',
@@ -50,11 +66,15 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/anmolkulkarni03`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/anmolkulkarni/`,
+          },
+          {
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/anmolkulkarni/`,
           },
         ],
       },
