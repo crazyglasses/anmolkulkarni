@@ -66,7 +66,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/anmolkulkarni03`,
+            url: `https://twitter.com/anmolkulkarni3`,
           },
           {
             name: `Instagram`,
